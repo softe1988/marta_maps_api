@@ -2,9 +2,7 @@ class LocationsController < ApplicationController
   before_action :set_location, only: [:show, :edit, :update, :destroy]
   include ApplicationHelper
   
-  def my_location
-    "#{address}, #{city}, GA"
-end
+
   # GET /locations
   # GET /locations.json
   def index
